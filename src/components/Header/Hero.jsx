@@ -18,7 +18,7 @@ const Hero = () => {
             <p>Based in Hyderabad, India</p>
             <a href='https://drive.google.com/file/d/1TJ7cvhb8819SCKNX4SSiSDzLiG3BcKBv/view?usp=sharing' target='_blank' className='p-2 w-[50%] md:w-[15vw] rounded-xl font-bold text-white bg-black hover:scale-110 hover:transition text-center'>View Resume</a>
         </div>
-        <div className='sm:hidden flex absolute right-10 bottom-[22%] flex-col gap-8 justify-center text-4xl'>
+        <div className='sm:hidden flex absolute right-5 bottom-[22%] flex-col gap-8 justify-center text-4xl'>
             <a href='https://www.linkedin.com/in/upendharnemmani' target='_blank' className="hover:scale-110 hover:transition-all">
             <FontAwesomeIcon icon={faLinkedin} /></a>
             <a href='https://github.com/Upendhar10' target='_blank' className="hover:scale-110 hover:transition-all">

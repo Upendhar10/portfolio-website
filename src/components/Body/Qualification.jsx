@@ -64,10 +64,11 @@ const Timeline = () => {
                             <div className="order-1 w-5/12"></div>
                             <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-6 h-6 rounded-full">
                             </div>
-                            <div className="order-1  rounded-lg shadow-md w-5/12 px-6 py-4">
-                                <h3 className="mb-2 font-bold text-gray-800 text-xl">B.Tech - CSE : 2022</h3>
-                                <h6 className='mb-1'>Gokaraju Rangaraju Institute of Engineering and Technology</h6>
-                                <p>CGPA - 7.1</p>
+                            <div className="order-1  rounded-lg shadow-md w-5/12 px-4 py-4">
+                                <h3 className="mb-2 font-bold text-gray-800 text-sm sm:text-xl">B.Tech - CSE : 2022</h3>
+                                <h6 className='mb-1 text-sm sm:text-base md:hidden' title='Gokaraju Rangaraju Institute of Engineering and Technology'>G.R.I.E.T</h6>
+                                <h6 className='hidden mb-1 text-sm sm:text-base md:block'>Gokaraju Rangaraju Institute of Engineering and Technology</h6>
+                                <p className='text-sm sm:text-base'>CGPA - 7.1</p>
                             </div>
                         </div>
 
@@ -76,10 +77,10 @@ const Timeline = () => {
                             <div className="order-1 w-5/12"></div>
                             <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-6 h-6 rounded-full">
                             </div>
-                            <div className="order-1  rounded-lg shadow-md w-5/12 px-6 py-4">
-                                <h3 className="mb-2 font-bold text-gray-800 text-xl">Intern : Oct 2021 - Dec 2021</h3>
-                                <h6 className='mb-1'>AICTE - EduSkills</h6>
-                                <p>AWS Cloud </p>
+                            <div className="order-1  rounded-lg shadow-md w-5/12 px-4 py-4">
+                                <h3 className="mb-2 font-bold text-gray-800 text-sm sm:text-xl">Intern : Oct 2021 - Dec 2021</h3>
+                                <h6 className='mb-1 text-sm sm:text-base'>AICTE - EduSkills</h6>
+                                <p className='text-sm sm:text-base'>AWS Cloud </p>
                             </div>
                         </div>
     
@@ -88,10 +89,11 @@ const Timeline = () => {
                             <div className="order-1 w-5/12"></div>
                             <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-6 h-6 rounded-full">
                             </div>
-                            <div className="order-1  rounded-lg shadow-md w-5/12 px-6 py-4">
-                                <h3 className="mb-2 font-bold text-gray-800 text-xl">Diploma - CME : 2019</h3>
-                                <h6 className='mb-1'>Sanjay Gandhi Memorial Govt Polytechnic</h6>
-                                <p>CGPA - 7.5</p>
+                            <div className="order-1  rounded-lg shadow-md w-5/12 px-4 py-4">
+                                <h3 className="mb-2 font-bold text-gray-800  text-sm sm:text-xl">Diploma - CME : 2019</h3>
+                                <h6 className='mb-1 text-sm sm:text-base md:hidden' title='Sanjay Gandhi memorial Govt Polytechnic'>S.G.M G.P.T</h6>
+                                <h6 className='hidden mb-1 text-sm sm:text-base md:block'>Sanjay Gandhi Memorial Govt Polytechnic</h6>
+                                <p className='text-sm sm:text-base'>CGPA - 7.5</p>
                             </div>
                         </div>
 
@@ -100,10 +102,10 @@ const Timeline = () => {
                             <div className="order-1 w-5/12"></div>
                             <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-6 h-6 rounded-full">
                             </div>
-                            <div className="order-1 rounded-lg shadow-md w-5/12 px-6 py-4">
-                                <h3 className="mb-2 font-bold text-gray-800 text-xl">Intern : Nov 2018 - April 2019 </h3>
-                                <h6 className='mb-1'>S.P Technologies</h6>
-                                <p>Android Development</p>
+                            <div className="order-1 rounded-lg shadow-md w-5/12 px-4 py-4">
+                                <h3 className="mb-2 font-bold text-gray-800 text-sm sm:text-xl">Intern : Nov 2018 - April 2019 </h3>
+                                <h6 className='mb-1 text-sm sm:text-base'>S.P Technologies</h6>
+                                <p className='text-sm sm:text-base'>Android Development</p>
                             </div>
                         </div>
                     {/* <!-- right timeline --> */}
@@ -111,10 +113,11 @@ const Timeline = () => {
                             <div className="order-1 w-5/12"></div>
                             <div className="z-20 flex items-center order-1 bg-gray-800 shadow-none w-6 h-6 rounded-full">
                             </div>
-                            <div className="order-1  rounded-lg shadow-md w-5/12 px-6 py-4">
-                                <h3 className="mb-2 font-bold text-gray-800 text-xl">High School - SSC : 2016</h3>
-                                <h6 className='mb-1'> Bhavya's Grammar High School</h6>
-                                <p>CGPA - 8.8</p>
+                            <div className="order-1  rounded-lg shadow-md w-5/12 px-4 py-4">
+                                <h3 className="mb-2 font-bold text-gray-800 text-sm sm:text-xl ">High School - SSC : 2016</h3>
+                                <h6 className='mb-1 text-sm sm:text-base md:hidden' title='Sanjay Gandhi memorial Govt Polytechnic'>B.G.H.S</h6>
+                                <h6 className='hidden mb-1 text-sm sm:text-base md:block'>Bhavya's Grammar High School</h6>
+                                <p className='text-sm sm:text-base'>CGPA - 8.8</p>
                             </div>
                         </div>
                 </div>
