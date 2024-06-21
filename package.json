@@ -2,6 +2,7 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "portfolio website build using React.js",
+  "type": "module",
   "scripts": {
     "start": "parcel ./src/index.html",
     "build": "parcel build ./src/index.html",
